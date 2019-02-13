@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: arvados-workbench
-          image: "cure/arvados-rails-runtime"
+          image: "agonopol/arvados-rails-runtime"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           command:
             - "sh"

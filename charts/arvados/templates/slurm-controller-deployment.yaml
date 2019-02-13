@@ -31,7 +31,7 @@ spec:
       containers:
         - name: {{ .Chart.Name }}
           hostname: arvados-slurm-controller
-          image: "cure/arvados-slurm-runtime"
+          image: "agonopol/arvados-slurm-runtime"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           command:
             - "sh"

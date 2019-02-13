@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: arvados-shell-server
-          image: "cure/arvados-shell-server-runtime"
+          image: "agonopol/arvados-shell-server-runtime"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           command:
             - "sh"
